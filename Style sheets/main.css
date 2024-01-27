@@ -1,0 +1,164 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 533px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 730px;
+}
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 634px;
+}
+
+.h1des1 {
+    color: white;
+    font-size: 55px;
+}
+
+.h1des2 {
+    color: red;
+    font-size: 55px;
+    text-shadow: 2px 0 red;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 630px;
+}
+
+.wrapper .static-txt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 185px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+
+    margin-right: 20px;
+}
+
+.wrapper .dynamic-txts {
+    text-align: center;
+    /* border: 1px solid white; */
+    width: 625px;
+    padding-left: 15px;
+    padding-bottom: 86px;
+    height: 70px;
+    line-height: 90px;
+    overflow: hidden;
+    text-shadow: 2px 0 red;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: red;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 70px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: black;
+    border-left: 2px solid red;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.download-button {
+    font-size: 20px;
+    font-weight: 1000;
+    text-shadow: 1px 0 white;
+    font-family: "Caveat", 'Courier New', Courier, monospace;;
+    background-color: red;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+}
+
+
+.download-button:hover {
+    color: lightcoral;
+}
+
+
+.picture-frame {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.picture-frame::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg); 
+    width: 500px; 
+    height: 350px;  
+    background-color: transparent; 
+    border: 8px solid red; 
+    border-radius: 50%; 
+    box-sizing: border-box;
+}
+
+.picture-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
