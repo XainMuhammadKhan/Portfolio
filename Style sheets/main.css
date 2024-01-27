@@ -90,7 +90,7 @@
     position: absolute;
     left: 0;
     height: 70px;
-    width: 470px;
+    width: 500px;
     background: black;
     border-left: 2px solid red;
     animation: typing 3s steps(10) infinite;
