@@ -9,6 +9,7 @@
 body {
     background-color: black;
     font-family: 'Cute Font', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar {
