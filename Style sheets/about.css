@@ -1,0 +1,29 @@
+.my-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    box-shadow: 3px 3px 10px 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    color: white;
+    position: sticky;
+    text-align: center;
+}
+.subab{
+    font-size: 40px;
+    font-weight: 1000;
+    text-shadow: 1px 0 white;
+    text-decoration: underline dashed white;
+}
+.abou{
+
+    font-size: 25px;
+    font-weight: 1000;
+}
+

@@ -24,12 +24,12 @@
 
 .h1des1 {
     color: white;
-    font-size: 55px;
+    font-size: 80px;
 }
 
 .h1des2 {
     color: red;
-    font-size: 55px;
+    font-size: 80px;
     text-shadow: 2px 0 red;
 }
 
@@ -42,10 +42,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* border: 1px solid white; */
     width: 185px;
     color: #fff;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 600;
 
     margin-right: 20px;
@@ -53,21 +52,19 @@
 
 .wrapper .dynamic-txts {
     text-align: center;
-    /* border: 1px solid white; */
     width: 625px;
     padding-left: 15px;
     padding-bottom: 86px;
     height: 70px;
     line-height: 90px;
     overflow: hidden;
-    text-shadow: 2px 0 red;
 }
 
 .dynamic-txts li {
     list-style: none;
     color: red;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 1000;
     position: relative;
     top: 0;
     animation: slide 12s steps(4) infinite;
@@ -112,7 +109,7 @@
     font-size: 20px;
     font-weight: 1000;
     text-shadow: 1px 0 white;
-    font-family: "Caveat", 'Courier New', Courier, monospace;;
+    font-family: "Cute Font", 'Courier New', Courier, monospace;;
     background-color: red;
     height: 50px;
     color: white;
