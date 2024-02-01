@@ -2,8 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .about{
+    margin-top: 175px ;
     box-shadow: 3px 3px 10px 5px white;
     display: flex;
     justify-content: center;
@@ -14,6 +24,7 @@
     color: white;
     position: sticky;
     text-align: center;
+    
 }
 .subab{
     font-size: 40px;
