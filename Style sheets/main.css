@@ -106,18 +106,18 @@
 }
 
 .download-button {
-    font-size: 20px;
-    font-weight: 1000;
-    text-shadow: 1px 0 white;
+    font-size: 30px;
+    font-weight: 600;
     font-family: "Cute Font", 'Courier New', Courier, monospace;;
     background-color: red;
-    height: 50px;
+    height: 60px;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 1px 1px 8px 5px rgb(255, 33, 33);
 }
 
 .bu{
@@ -152,10 +152,12 @@
     border: 8px solid red; 
     border-radius: 50%; 
     box-sizing: border-box;
+    background-clip: content-box;
 }
 
 .picture-frame img {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
