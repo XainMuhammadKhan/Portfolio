@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
-    height: 533px;
+    height: 629px;
 }
 
 .desc {
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 185px;
+    width: 200px;
     color: #fff;
     font-size: 65px;
     font-weight: 600;
@@ -52,9 +52,8 @@
 
 .wrapper .dynamic-txts {
     text-align: center;
-    width: 625px;
-    padding-left: 50px;
-    padding-bottom: 86px;
+    width: 600px;
+    padding-bottom: 87px;
     height: 70px;
     line-height: 90px;
     overflow: hidden;
