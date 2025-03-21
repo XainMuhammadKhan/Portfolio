@@ -9,99 +9,215 @@
     <link rel="stylesheet" href="./Style sheets/navBar.css">
     <link rel="stylesheet" href="./Style sheets/main.css">
     <link rel="stylesheet" href="./Style sheets/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar">
         <div class="navimg">
-            <img src="./images/Screenshot_2024-01-23_213634-removebg.png" alt="logo" class="logo">
+            <img src="./images/logo.jpg" alt="logo" class="logo">
         </div>
         <div class="navopt">
-            <a href="#" class="anav">Home</a>
+            <a href="#home" class="anav">Home</a>
             <a href="#About" class="anav">About</a>
-            <a href="#" class="anav">contact</a>
-            <a href="#" class="anav">Services</a>
-            <div class="dropdown">
-                <a class="anav dropbtn">More</a>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+            <a href="#Skills" class="anav">Skills</a>
+            <a href="#Projects" class="anav">Projects</a>
+            <a href="#Contact" class="anav">Contact</a>
+        </div>
+    </div>
+
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="main">
+            <div class="desc">
+                <h1 class="h1des1" data-aos="fade-right">Hi, I'm</h1>
+                <h1 class="h1des2" data-aos="fade-right" data-aos-delay="200">XAIN MUHAMMAD KHAN</h1>
+                <div class="wrapper" data-aos="fade-up" data-aos-delay="400">
+                    <div class="static-txt">I'm a</div>
+                    <div class="dynamic-txts"></div>
+                </div>
+                <div class="bu" data-aos="fade-up" data-aos-delay="600">
+                    <button class="download-button" onclick="window.location.href='path/to/your/resume.pdf'">
+                        <i class="fas fa-download"></i> Download Resume
+                    </button>
+                </div>
+            </div>
+            <div class="mainimg" data-aos="fade-left">
+                <div class="picture-frame">
+                    <img src="./images/logo.jpg" alt="Profile Picture">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="main">
-        <div class="desc">
-            <h1 class="h1des1">SALAM! I AM </h1>
-            <h1 class="h1des2">XAIN MUHAMMAD KHAN</h1>
-            <div class="wrapper">
-                <div class="static-txt">I'm a</div>
-                <ul class="dynamic-txts">
-                    <li><span>FLUTTER DEVELOPER</span></li>
-                    <li><span>WEB DEVELOPER</span></li>
-                    <li><span>GRAPHIC DESIGNER</span></li>
-                    <li><span>AI ENGINEER</span></li>
-                    <li><span>CYBERSECURITY ENGINEER</span></li>
-                </ul>
-            </div>
-            <div class="bu">
-                <button class="download-button" onclick="window.location.href='path/to/your/resume.pdf'">Download
-                    Resume</button>
+    </section>
+
+    <section id="About" class="about-section">
+        <div class="my-about fade-in" data-aos="fade-up">
+            <h1 class="section-title">ABOUT ME</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hi, I'm <em>Xain Muhammad Khan</em>, a passionate developer with expertise in multiple domains. With a strong foundation in both front-end and back-end development, I create innovative solutions that make a difference.
+                    </p>
+                    <p>
+                        My journey in technology began with a deep curiosity for creating things that could impact people's lives. Today, I specialize in developing cutting-edge applications that combine creativity with technical excellence.
+                    </p>
+                    <p>
+                        I believe in continuous learning and staying at the forefront of technology. My approach combines technical expertise with creative problem-solving to deliver exceptional results.
+                    </p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>Bachelor's in Computer Science</p>
+                        <p>University of Technology</p>
+                    </div>
+                    <div class="detail-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experience</h3>
+                        <p>3+ Years in Development</p>
+                        <p>Multiple Successful Projects</p>
+                    </div>
+                    <div class="detail-item" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                        <p>Flutter Development</p>
+                        <p>Web Development</p>
+                        <p>AI & Machine Learning</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="mainimg">
-            <div class="picture-frame">
-                <img src="./images/Screenshot_2024-01-23_213634-removebg.png" alt="">
+    </section>
+
+    <section id="Skills" class="skills-section">
+        <h1 class="section-title" data-aos="fade-up">SKILLS</h1>
+        <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-card">
+                <i class="fab fa-flutter"></i>
+                <h3>Flutter Development</h3>
+                <div class="skill-progress">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5 & CSS3</h3>
+                <div class="skill-progress">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="skill-progress">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <div class="skill-progress">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="my-about fade-in">
-        <section class="about" id="About">
-            <h1 class="subab">ABOUT ME:</h1>
-            <p class="abou">
-                SALAM, I'm <em style="color: red;">Xain Muhammad Khan</em> , a [Your Profession/Title] with a passion for [Your Field/Industry]. With a
-                [mention any relevant number] years of experience, I specialize in [Your Key Skills or Areas of
-                Expertise].
-            </p>
-            <h1 class="subab">BACKGROUND:</h1>
-            <p class="abou">
-                I earned my [Highest Degree] in [Your Field] from [University/Institution], where I honed my skills
-                in [specific skills or knowledge areas]. My educational journey equipped me with a solid foundation,
-                and I've since expanded my expertise through various courses and certifications, including [mention
-                any significant courses or certifications].
-            </p>
-            <h1 class="subab">PROFESSIONAL JOURNEY:</h1>
-            <p class="abou">
-                In my professional journey, I've had the opportunity to [mention key experiences or projects].
-                These experiences have not only refined my technical skills but also developed my ability to
-                [mention soft skills or attributes].
-            </p>
-            <h1 class="subab">WHAT SETS ME APART:</h1>
-            <p class="abou">
-                What sets me apart is my commitment to [mention any unique quality or approach], coupled
-                with a continuous drive for learning and adapting to emerging industry trends. I believe in
-                [mention your professional philosophy or approach].
-            </p>
-            <h1 class="subab">LET'S CONNECT:</h1>
-            <p class="abou">
-                I'm excited about the possibility of [mention what excites you about your work or
-                industry]. Feel free to explore my portfolio for a glimpse into my work, and don't
-                hesitate to reach out through the [Contact Me] section for inquiries, collaborations, or
-                just a friendly conversation.
+    </section>
 
-                Thank you for visiting!
+    <section id="Projects" class="projects-section">
+        <h1 class="section-title" data-aos="fade-up">PROJECTS</h1>
+        <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/logo.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/logo.jpg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/logo.jpg" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                [Your Name]
+    <section id="Contact" class="contact-section">
+        <h1 class="section-title" data-aos="fade-up">CONTACT ME</h1>
+        <div class="contact-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>your.email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1234567890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Your Location</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Xain Muhammad Khan. All rights reserved.</p>
+    </footer>
 
-            </p>
-
-        </section>
-    </div>
-    <script src="./Javascript/about.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./Javascript/about.js"></script>
+    <script src="./Javascript/typewriter.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
 
+        particlesJS.load('particles-js', './Javascript/particles.json');
+    </script>
 </body>
 
 </html>
